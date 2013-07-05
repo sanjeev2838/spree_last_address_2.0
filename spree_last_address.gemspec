@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.platform      = Gem::Platform::RUBY
 
-  s.add_dependency('spree_core', '~> 2.1.0.beta')
+  s.add_dependency('spree_core', '~> 2.0.0')
   # Soft requirement if using Spree > 1.2, since spree_auth_devise is now what provides
   # user.bill_address association:
   #s.add_development_dependency('spree_auth_devise', '~> 1.2')
